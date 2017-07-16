@@ -1,0 +1,414 @@
+@font: Helvetica, Arial, sans-serif;
+@fontcolor: #333333;
+@border: 1px solid #1d2a5b;
+@tdpadl: 14px;
+
+@media (max-width: 782px) {
+  .hints { display: none;}
+}
+
+body {
+  overflow-y: scroll;
+}
+
+header {
+  height: 83px;
+  color: @fontcolor;
+  font-size: 12px;
+  font-family: @font;
+  background-color: #3b5998;
+  background-image: linear-gradient(#4e69a2, #3b5998 50%);
+  border-bottom: 1px solid #133783;
+  min-height: 42px;
+}
+
+.facelogo {
+  height: 34px;
+  width: 170px;
+  background: url("https://www.facebook.com/rsrc.php/v3/y6/r/32ASmHlzn7W.png");
+  margin-top: 17px;
+  float: left;
+}
+
+.cont {
+  height: 78px;
+  padding-top:13px;
+  margin-left: 153px;
+  margin-right: 153px;
+}
+
+.login {
+  width: 392px;
+  height: 65px;
+  float: right;
+}
+
+.textinput {
+  border: @border;
+  width: 150px;
+  height: 23px;
+}
+
+.lbl {
+  color: #ffffff;
+  cursor: pointer;
+  font-family: @font;
+  font-size: 12px;
+  padding-left: 1px;
+  vertical-align: middle;
+  margin-bottom: 0;
+  text-align: left;
+  border-collapse: separate;
+  line-height: 16.08px;
+  font-weight: normal;
+  letter-spacing: normal;
+}
+
+.lgin {
+  width: 150px;
+  height: 23px;
+  padding-left: 14px;
+}
+
+.lginlbl {
+  padding-left: @tdpadl;
+  padding-bottom: 4px;
+  display: table-cell;
+  width: 164px;
+}
+
+.lgbtntd {
+  padding-left: 14px;
+  width: 60px;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: @font;
+}
+
+.lgbtn {
+  border: 1px solid #29487d;
+  background-color: #4267b2;
+  color: #FFFFFF;
+  width: 50px;
+  height: 24px;
+  padding: 2px 6px 2px 6px;
+}
+
+.fgt {
+  padding-left: 14px;
+  padding-top: 4px;
+}
+
+.fgtlnk, .fgtlnk:hover {
+  color: #9cb4d8;
+}
+
+.contpage {
+  background-color: #edf0f5;
+}
+
+.page {
+  width: 980px;
+  height: 599px;
+  margin: 0 153px 0 153px;
+  padding: 20px 0 20px 0;
+  display: inline-block;
+}
+
+.pagecont {
+  height: 599px;
+  width: 565px;
+  display: inline-block;
+  margin-right: 15.9999999999px;
+  vertical-align: top;
+}
+
+.msg {
+  width: 408.72px;
+  height: 138px;
+  padding: 42px 0 24px 0;
+  font-size: 28px;
+  line-height: 36px;
+  font-family: @font;
+  font-weight: bolder;
+  color: #333;
+  margin: 0 0 0 0;
+}
+
+.hints {
+  display: inline-block;
+}
+
+.icon {
+  margin-top: 20px;
+  margin-left: 4px;
+  padding-bottom: 10px;
+  height: 53px;
+  width: 565px;
+  display: inline-block;
+}
+
+.iconimage {
+  float: left;
+  margin-right: 16px;
+  width: 55px;
+}
+
+.icontext {
+  margin-top: 10px;
+  height: 22px;
+  vertical-align: middle;
+}
+
+.boldtext {
+  color: #333333;
+  font-family: @font;
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.normtext {
+  color: #666666;
+  font-family: @font;
+  font-size: 15px;
+  margin-left: 11px;
+}
+
+.signup {
+  width: 399px;
+  height: 559px;
+  float: right;
+  vertical-align: top;
+}
+
+.signuptitle {
+  font-family: @font;
+  color: #333333;
+  font-size: 36px;
+  font-weight: bold;
+  width: 399px;
+  height: 43px;
+  margin: 2px 0 1px 0;
+}
+
+.signupsubtitle {
+  margin: 0 0 0 0;
+  font-size: 19px;
+  margin-bottom: 18px;
+}
+
+.signupform {
+  width: 399px;
+  height: 395px;
+}
+
+.fullname {
+  width: 399px;
+  height: 49px;
+}
+
+.name {
+  width: 194px;
+  height: 39px;
+  margin-right: 8px;
+  margin-bottom: 10px;
+  position: relative;
+  font-size: 18px;
+  color: @fontcolor;
+}
+
+.inputs {
+  border: 1px solid #bdc7d8 !important;
+  border-radius: 5px !important;
+  padding: 8px 10px 8px 10px !important;
+  color: #000000 !important;
+  font-size: 18px !important;
+  height: 39px !important;
+}
+
+.email {
+  width: 399px;
+  height: 39px;
+  margin-bottom: 10px;
+}
+
+.birthday {
+  width: 399px;
+  height: 59px;
+}
+
+.bdaymsg {
+  height: 24px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  color: @fontcolor;
+  font-size: 18px;
+}
+
+.bdayslct {
+  height: 30px;
+}
+
+.drops {
+  width: 186px;
+  height: 30px;
+  margin: 0;
+}
+
+.bday {
+  border: 1px solid #bdc7d8;
+  background-color: #dddddd;
+  align-items: center;
+  font-size: 13px;
+  color: black;
+  width: 69px;
+  height: 30px;
+  padding: 5px;
+  margin: 0;
+  float: left;
+}
+
+.bdayquest {
+  color: #365899;
+  cursor: pointer;
+  font-size: 11px;
+  margin-left: 10px;
+  height: 28px;
+  width: 150px;
+  vertical-align: middle;
+  max-width: 150px;
+  float: left;
+  margin-top: 2px;
+  line-height: 14.74px;
+}
+
+.bdq {
+  color: #365899;
+  cursor: pointer;
+  font-size: 11px;
+}
+
+.gender {
+  width: 399px;
+  margin-top: 13px;
+}
+
+.gendercheck {
+  width: 179.047px;
+}
+
+.fmale {
+  padding: 5px 0 5px 4px;
+  margin-right: 4px;
+  width: 98.03px;
+}
+
+#frad {
+  margin: 8px 3px 0 5px;
+  width: 13px;
+  height: 13px;
+  font-size: 12px;
+  color: black;
+  padding: 0 0 0 0;
+}
+
+#fem {
+  color: #1d2129;
+  font-size: 18px;
+  padding: 0 10px 0 3px;
+  font-family: @font;
+  position: relative;
+  margin-left: -4px;
+}
+
+.trms {
+  margin: 12px 0 11px 0;
+  color: #777;
+  font-size: 11px;
+  width: 316px;
+  line-height: 14.74px;
+}
+
+.trms a {
+  color: #365899;
+}
+
+.submit {
+  width: 399px;
+  height: 59px;
+}
+
+.submitbtn {
+  border: 1px solid #2c5115 !important;
+  background-image: linear-gradient(#67ae55, #578843) !important;
+  box-shadow: inset 0 1px 1px #a4e388 !important;
+  width: 194px;
+  height: 39px;
+  padding: 5px 20px 9px 20px !important;
+  margin: 10px 0 10px 0;
+  color: white !important;
+  font-size: 19px !important;
+  font-family: @font !important;
+  font-weight: bold !important;
+  text-shadow: 0 1px 2px rgba(0,0,0,.5) !important;
+  font-stretch: normal;
+  min-width: 194px !important;
+}
+
+.submitbtn:hover {
+  background-color: #578843 !important;
+  box-shadow: inset 0 1px 1px #a4e388 !important;
+  border-color: #3b6e22 #3b6e22 #2c5115 !important;
+}
+
+.grouppage {
+  margin-top: 10px;
+  border-top: 1px solid #dddfe2;
+  padding-top: 15px;
+  color: #666666;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 17.42px;
+}
+
+.grouppage a {
+  color: #365889;
+}
+
+.footcont {
+  margin: 0 153px 0 153px;
+  width: 980px;
+  height: 154px;
+}
+
+.lbar {
+  padding-top: 8px;
+  padding-left: 0px;
+  height: 28px;
+  font-size: 12px;
+  display: block;
+  list-style-type: none;
+  overflow: hidden;
+  color: #737373;
+}
+
+.lbar li {
+  display: inline;
+  float: left;
+  vertical-align: top;
+}
+
+.lia {
+  color: #365889;
+  padding-left: 10px;
+}
+
+.tbl {
+  padding: 0 10px 0 10px;
+  font-size: 12px;
+}
+
+.tbl a {
+  color: #365889;
+}
